@@ -1,5 +1,8 @@
 name: publish-z-quantum-default-latest.yml
-on: [push]
+on:
+- push:
+    branches:
+    - master
 jobs:
   publish-docker-image:
     runs-on: ubuntu-latest
