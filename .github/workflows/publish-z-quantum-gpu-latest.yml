@@ -1,6 +1,6 @@
 name: publish-z-quantum-default-latest.yml
-on:
-- push:
+- on:
+  - push:
     branches:
     - master
 jobs:
